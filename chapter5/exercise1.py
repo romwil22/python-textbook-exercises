@@ -24,7 +24,7 @@ def user_input():
         count += 1
     print(total)
     print(count)
-    print(total/count)
+    print(round(total/count, 2))
 
 
 user_input()

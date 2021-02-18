@@ -5,6 +5,8 @@ returns a grade as a string.
 # User input
 grade = input('enter your score between 0.0 and 1.0: ')
 
+# Grade condition function
+
 
 def computegrade(g):
     try:
@@ -25,5 +27,6 @@ def computegrade(g):
         return 'String input invalid'
 
 
+# Result
 grade_computed = computegrade(grade)
 print(grade_computed)
