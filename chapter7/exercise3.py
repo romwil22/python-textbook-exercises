@@ -32,6 +32,7 @@ while True:
             print(textfile_input.upper(), ' - You have been punk\'d!')
             print()
             continue
+
         print('File cannot be opened:', textfile_input)
         print()
         continue

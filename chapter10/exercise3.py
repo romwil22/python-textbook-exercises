@@ -51,6 +51,6 @@ for letter, count in letters_dict.items():
 # Sort variable "letters_list" to decending order
 letters_list.sort(reverse=True)
 
-# Print the list of items in decreasing  order
-for count, letter in letters_list:
+# Print the top 10 list of items in decreasing  order
+for count, letter in letters_list[:10]:
     print(letter + ':', count)

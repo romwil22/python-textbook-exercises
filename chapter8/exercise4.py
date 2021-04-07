@@ -23,6 +23,8 @@ listwords = list()
 
 # Getting the words in text file
 for line in fileread:
+    line = line.strip()
+    print(line)
     linewords = line.split()
 
     for word in linewords:
@@ -34,4 +36,5 @@ for line in fileread:
 
 # File output with sorted list
 listwords.sort()
+print()
 print(listwords)
